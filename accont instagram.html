@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background-color: #1e293b;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+            border: 1px solid #334155;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #3b82f6, #8b5cf6);
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #3b82f6;
+        }
+
+        p {
+            color: #94a3b8;
+            font-size: 16px;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .link-btn {
+            display: block;
+            padding: 12px;
+            background-color: #334155;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .link-btn:hover {
+            background-color: #3b82f6;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">       <div class="avatar">👨‍💻</div>
+        
+        <h1>hello, im ilyas</h1>
+        <p>مطور ويب مبتدئ شغوف بالبرمجة، وتصميم واجهات المستخدم واكتشاف التقنيات الجديدة.</p>
+        
+        <div class="links-container">
+            <a href="http://www.instagram.com/ily.asrhm" class="link-btn">instagram</a>
+            <a href="http://www.youtube.com/@MorgenCalven" class="link-btn">youtube</a>
+        </div>
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إستراتيجيات التمويل والجذب - منصة تميّز</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0b0f19;
+            color: #f1f5f9;
+            line-height: 1.8;
+        }
+
+        /* شريط علوي بسيط للملاحة */
+        .navbar {
+            background-color: #111827;
+            padding: 15px 20px;
+            border-bottom: 1px solid #1f2937;
+        }
+
+        .back-btn {
+            color: #38bdf8;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .back-btn:hover {
+            color: #a855f7;
+        }
+
+        /* حاوية المقال الرئيسية */
+        .article-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* هيدر المقال */
+        .article-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .article-category {
+            color: #a855f7;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .article-header h1 {
+            font-size: 36px;
+            color: #38bdf8;
+            margin: 10px 0 20px 0;
+        }
+
+        .meta-info {
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        /* صورة بارزة أو تأثير بصري للحرف */
+        .featured-banner {
+            background: linear-gradient(135deg, #1e1b4b, #311042);
+            height: 250px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            margin-bottom: 40px;
+            border: 1px solid #4338ca;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        /* محتوى النصائح */
+        .content-section {
+            background-color: #111827;
+            border: 1px solid #1f2937;
+            border-radius: 12px;
+            padding: 35px;
+            margin-bottom: 30px;
+        }
+
+        .content-section h2 {
+            color: #f8fafc;
+            font-size: 22px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .content-section p {
+            color: #cbd5e1;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        /* قائمة النصائح الجميلة */
+        .tips-list {
+            list-style: none;
+        }
+
+        .tips-list li {
+            position: relative;
+            padding-right: 25px;
+            margin-bottom: 15px;
+            color: #94a3b8;
+        }
+
+        .tips-list li::before {
+            content: "✦";
+            position: absolute;
+            right: 0;
+            color: #38bdf8;
+            font-weight: bold;
+        }
+
+        .tips-list strong {
+            color: #f1f5f9;
+        }
+
+        /* صندوق الملاحظات المميز */
+        .note-box {
+            background: rgba(168, 85, 247, 0.1);
+            border-right: 4px solid #a855f7;
+            padding: 20px;
+            border-radius: 4px 12px 12px 4px;
+            margin-top: 30px;
+        }
+
+        .note-box h4 {
+            color: #a855f7;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #64748b;
+            font-size: 14px;
+            margin-top: 60px;
+            border-top: 1px solid #1f2937;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html" class="back-btn">→ العودة للرئيسية</a>
+    </div>
+
+    <div class="article-container">
+        
+        <div class="article-header">
+            <span class="article-category">دليل التمويل</span>
+            <h1>إستراتيجيات التمويل والجذب للمشاريع الناشئة</h1>
+            <div class="meta-info">وقت القراءة: 5 دقائق • تم النشر بواسطة إدارة المنصة</div>
+        </div>
+
+        <div class="featured-banner">💰</div>
+
+        <div class="content-section">
+            <h2>مقدمة الدليل</h2>
+            <p>يعتبر التمويل هو عصب الحياة لأي مشروع ناشئ. فالفكرة العظيمة وحدها لا تكفي ما لم تدعمها موارد مالية تساعد على تنفيذها، وتطوير المنتجات، والوصول إلى الفئة المستهدفة. في هذا الدليل المتخصص، نضع بين يديك خلاصة النصائح المتبعة عالمياً لجذب المستثمرين وتأمين رأس المال.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>أبرز نصائح جذب المستثمرين وتأمين رأس المال</h2>
+            <ul class="tips-list">
+                <li><strong>1. ابنِ نموذج عمل أولي (MVP):</strong> لا تذهب للمستثمر بمجرد فكرة على ورق. أثبت أولاً أن هناك طلباً حقيقياً على منتجك أو خدمتك ولو بشكل مبسط جداً.</li>
+                <li><strong>2. أتقن العرض التقديمي (Pitch Deck):</strong> يجب أن يتضمن عرضك المشكلة الحقيقية في السوق، حلك المبتكر، حجم السوق المتوقع، والميزة التنافسية التي تجعلك أفضل من غيرك.</li>
+                <li><strong>3. اختر نوع التمويل المناسب:</strong> هل تحتاج إلى تمويل ملائكي (Angel Investors)، أم صناديق رأس المال الجريء (Venture Capital)، أم تفضل التمويل الجماعي؟ فهمك للفارق يختصر عليك وقتاً طويلاً.</li>
+                <li><strong>4. ركز على الفريق وليس الفكرة فقط:</strong> المستثمرون يستثمرون في "الأشخاص" قبل الأفكار. أظهر لهم أن لديك فريقاً شغوفاً، متكاملاً، وقادراً على مواجهة التحديات وتطوير المشروع.</li>
+            </ul>
+
+            <div class="note-box">
+                <h4>💡 نصيحة ذهبية:</h4>
+                <p>تذكر دائماً أن المستثمر لا يبحث فقط عن فكرة ذكية، بل يبحث عن مشروع يدرّ له أرباحاً وعوائد مالية واضحة مستقبلاً. ركز في حديثك دائماً على لغة الأرقام والنمو المستقبلي.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>حقوق النشر محفوظة © منصة تميُّز - تطوير إلياس 2026</p>
+    </footer>
+
+</body>
+</html>
