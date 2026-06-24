@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة تميّز - لتطوير المشاريع والحياة المهنية</title>
+    <style>
+        /* إعدادات الخطوط والألوان العامة */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0b0f19; /* خلفية داكنة فخمة */
+            color: #f1f5f9;
+            line-height: 1.6;
+        }
+
+        /* الهيدر (رأس الصفحة) */
+        header {
+            background: linear-gradient(135deg, #1e1b4b, #311042);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 2px solid #4338ca;
+        }
+
+        header h1 {
+            font-size: 32px;
+            color: #38bdf8;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #cbd5e1;
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* الحاوية الرئيسية للمحتوى */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* عنوان الأقسام */
+        .section-title {
+            font-size: 24px;
+            color: #a855f7;
+            margin-bottom: 20px;
+            border-right: 4px solid #a855f7;
+            padding-right: 10px;
+        }
+
+        /* شبكة البطاقات (Grid System) */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+
+        /* تصميم البطاقة الموحد */
+        .card {
+            background-color: #111827;
+            border: 1px solid #1f2937;
+            border-radius: 12px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #3b82f6;
+            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.1);
+        }
+
+        .card-icon {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            font-size: 20px;
+            color: #f8fafc;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            color: #94a3b8;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        /* أزرار الإجراءات داخل البطاقات */
+        .card-btn {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #1f2937;
+            color: #38bdf8;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .card:hover .card-btn {
+            background-color: #3b82f6;
+            color: #fff;
+        }
+
+        /* الفوتر (أسفل الصفحة) */
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #030712;
+            color: #64748b;
+            font-size: 14px;
+            margin-top: 60px;
+            border-top: 1px solid #1f2937;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>منصة تميّز للتطوير والإبداع</h1>
+        <p>بوابتك المتكاملة لإطلاق المشاريع الناشئة، واكتشاف أفكار العمل المبتكرة، ورسم مسارك المهني والدراسي بنجاح.</p>
+    </header>
+
+    <div class="container">
+
+        <h2 class="section-title">دليل أصحاب المشاريع والشركات الناشئة</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-icon">🚀</div>
+                <h3>تخطيط وإطلاق المشاريع</h3>
+                <p>تعلم كيف تحول فكرتك البسيطة إلى خطة عمل حقيقية، ودراسة السوق، وتحليل المنافسين قبل البدء.</p>
+                <a href="#" class="card-btn">تصفح الدليل</a>
+            </div>
+            <div class="card">
+                <div class="card-icon">💰</div>
+                <h3>إستراتيجيات التمويل والجذب</h3>
+                <p>طرق مبتكرة للحصول على دعم مالي لمشروعك، سواء من خلال المستثمرين، أو التمويل الجماعي.</p>
+                <a href="#" class="card-btn">اقرأ المزيد</a>
+            </div>
+            <div class="card">
+                <div class="card-icon">📢</div>
+                <h3>التسويق الرقمي الحديث</h3>
+                <p>أسرار بناء هوية تجارية قوية والوصول لعملائك المستهدفين عبر منصات التواصل الاجتماعي بأقل التكاليف.</p>
+                <a href="#" class="card-btn">ابدأ التعلم</a>
+            </div>
+        </div>
+
+        <h2 class="section-title">التطور المهني، العمل الحر والدراسة</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-icon">💻</div>
+                <h3>مجالات العمل الحر (Freelancing)</h3>
+                <p>استكشف أفضل مجالات العمل عبر الإنترنت مثل البرمجة، التصميم، صناعة المحتوى، والترجمة وكيفية الحصول على أول عميل.</p>
+                <a href="#" class="card-btn">اكتشف الأفكار</a>
+            </div>
+            <div class="card">
+                <div class="card-icon">🎓</div>
+                <h3>التفوق الدراسي والمنح</h3>
+                <p>طرق تنظيم الوقت، والبحث عن المنح الدراسية العالمية، وكيفية دمج الدراسة الأكاديمية مع التعلم الذاتي للغات والتقنية.</p>
+                <a href="#" class="card-btn">نصائح دراسية</a>
+            </div>
+            <div class="card">
+                <div class="card-icon">🧠</div>
+                <h3>الذكاء الاصطناعي في العمل</h3>
+                <p>كيف تستغل أدوات الذكاء الاصطناعي الحديثة لزيادة إنتاجيتك في عملك أو دراستك وإنجاز المهام بسرعة مضاعفة.</p>
+                <a href="#" class="card-btn">شاهد الأدوات</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>حقوق النشر محفوظة © منصة تميُّز - تطوير إلياس 2026</p>
+    </footer>
+
+</body>
+</html>
